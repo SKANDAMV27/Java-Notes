@@ -1,0 +1,32 @@
+This Key World:
+1.this is key world
+2.Java is a reference variable that refers to current object to class.
+3.It used to call another Constructor are a method.
+
+
+1.Referring to current class Instance variable
+
+public class name{
+int value
+
+name(int vaalue)
+{
+this.value=value;
+}
+void display(){
+sopln(value);
+}
+
+2.Class current class Method
+
+public class name
+{
+public void display()
+{
+System.out.println("Enter");
+}
+public void show()
+{
+this.display()
+}
+}

@@ -1,0 +1,22 @@
+Object:
+
+1.object is key to understanding the object oriented technology.
+2.Find the many example of real world.
+3.Real-world object shares a two Characteristics they all have state and behavior.
+4.Bicycle have state(current gear, current speed) and they have behavior(changing the gear, applying a break to stop).
+5.State is also known as FIELD and Behavior is also known as METHOD. 
+
+
+Class:
+1.A Class is Blueprint from which individual objects are created.
+Syntax :
+public class classname{
+}
+example :
+public car{
+}
+
+
+
+
+ 

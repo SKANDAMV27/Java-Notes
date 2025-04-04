@@ -1,0 +1,49 @@
+Variable:
+ 1. Variable is Container that used to store a data.
+ 2. we can changing during the exaction of the Program.
+
+There 4 Types of variable
+
+Local Variable:
+1.It declared in side the Method, constructor , Block of code
+2.It access only with the Method/block.
+3.It can be Initialized before use.
+
+syntax:
+public void display()
+{
+
+int value = 10;
+sopl("");
+}
+
+
+Instance Variable:
+1.It declared in side the class , but side the methods and constructor.
+2.It created when object is created.
+3.it is a non-static variable
+
+syntax:
+public class name{
+int value;
+}
+public void display()
+{
+sopln("name");
+}
+
+
+
+ Static variable:
+1.It declared with the Static key world.
+2.Shared across all object of the class.
+3.Belongs to the class , not instance.
+
+syntax:
+public class name{
+static String name="cfvbn";
+}
+
+Parameter :
+1.Parameter is a variable to we pass into a method to provide input.
+2.It declared inside the ().

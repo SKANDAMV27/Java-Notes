@@ -1,0 +1,23 @@
+Constructor:
+ 
+1.Constructor is special method used to initialized object of class.
+2.It has the same name as the class.
+3.Doesnot have return type.
+4.It Automatically invoked when a new object is created.
+
+Syntax:
+ 
+public class name{
+ int value;
+  
+public name(int value)
+{
+ this.value =value;
+}
+
+public static void main(String[] args)
+{
+Person person = new person(30);
+sopln(person.value);
+}
+}
