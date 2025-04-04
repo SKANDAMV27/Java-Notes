@@ -1,0 +1,4 @@
+Enum:
+1.Enum is a special data type.
+2.That Defines a fixed set of Constants.
+3.Its Used when you know all possible values at compile time.

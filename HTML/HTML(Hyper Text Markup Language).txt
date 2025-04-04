@@ -1,0 +1,92 @@
+HTML(Hyper Text Markup Language)
+ 1.It is used to create and design documents on the world wide web.
+ 2.HTML Structures the content of web page using tags and elements, which tell the browser how to display text ,images ,links, forms and other content.
+
+Hypertext:It refers t the abiit to link to other web pages.
+Markup: it content ith tags to describe its structure.
+Language: it used to Encode documents in ways that Browsers can be understand.
+
+Basic Stuctor
+<!DOCTYPE html>     it declares the Document Type
+<html>		    root of the TML Document
+<head>              contais title, links etc
+<body>              Contains visible page content
+
+
+
+Text Formatting Tags
+<h1> to <h6>        Heading
+<p>                 Paragraph
+<b>/<strong>        Bold Text
+<i>/<em>            Italc Text
+<u>                 Underline Text
+<small>             Small Text
+<mark>     	    Higlighted Text
+<sub>/<sup>	    Subscript/supescript
+<br>		    Line Break
+<hr>                Horizontal Rule
+
+
+Link and Media
+<a href="url">		Anchor/link
+<img src="img.jpg">	Image
+<video>			Video Player
+<audio>			Audio Player
+<source>		Source for media
+
+Lists
+<ul>       Unordered List
+<o>	   Ordered List
+<li>       List Item
+<dl>	   Description List
+<dt>	   Term
+<dd>       Description
+
+
+Tables
+
+<table>		Table
+<tr>		Table row
+<th>		Header Cell
+<td>		Data Cell
+<thead>, <tdody>, <tfoot>
+
+Forms
+<form>		Form Container
+<input>		Input field	
+<textarea>	Multi-line text input
+<select>	Dropdown
+<option>	option in dropdown
+<button>	Button
+<label>		Form Labe
+
+
+Layout andContainers
+
+<div>			Generic block container
+<span>			Generic inline container
+<header>,<footer>	Page Header and Footer
+<nav>			Navigation
+<main>			Main content
+<article>		self contained content
+<section>		section of content
+<aside>			sidebar
+
+Meta and Head Content
+
+<title>			page Title
+<meta>			Meta info like charset, viewport
+<link>			link to external resources
+<script>		JS code
+<style>			CSS Style		
+
+
+
+
+
+
+
+
+
+
+ 

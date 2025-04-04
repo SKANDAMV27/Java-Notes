@@ -1,0 +1,33 @@
+Method:
+1.In Java Methods are Block of Code that Perform a specific task and are defined inside classes.
+2.They help to reuse code, organize logic.
+
+Types of Methods in Java
+
+
+Instance Methods
+1.Need to create an object to use them
+2.Belong to an instance of a class
+
+Static Methods
+1.Belong to the class not object.
+2.Can be called without Creating an object
+
+Parametrized Methods
+1.Accept Input Parameters.
+
+Returning Methods
+1.Return a value using return.
+
+Constructor Methods
+1.Initialized Objects.
+
+Method Overloading
+1.A Multiple Methods with the same name but different Parameters.
+
+
+Access Modifiers for Methods
+1.public->It accessible Everywhere
+2.Private --> It accessible only within the Class
+3.Protected -->It accessible within package or subclass.
+4.default -->It accessible only within package.
