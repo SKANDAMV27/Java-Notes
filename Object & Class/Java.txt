@@ -1,0 +1,15 @@
+Java
+ 
+
+1.Java is Objected oriented PLatform indeprndent High level Programming Language
+2.It can Write ones and run any where.
+
+Object Oriented:
+
+1.Every things is object.
+2.it Supports to inheretics , encapsulation , abstruction, polymorifision.
+
+Platform indepent
+
+1.Java compiles a bit code.
+2.Java run on JVM.

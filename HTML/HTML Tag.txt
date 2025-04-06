@@ -1,0 +1,43 @@
+HTML Tag
+ A container for some content or other HTML tags
+
+<p> Hello World </p>---->Element
+Hello Worlds is an Content
+
+
+HTML attribute :
+ An Attribute is used to adding aa more information to the tags.
+<h lng="en">
+
+Ancak Tag
+
+It is used to add the link in tag
+
+<a href="link">GOOGLE</a>
+
+
+Image Tag
+
+It is Used to add image to page
+ <image scr="Image.jpg" alt="ramdam.img">Image</image>
+
+Br Tag
+ It is used to add next line to your page
+or Breake the line and add to next line.
+<br>
+
+Bold ,Italic, underline
+It is used to highlight text in your page
+<b>Bold</b>
+<i>Italic</i>
+<u>UnderLine</u>
+<mark>Mark The Text</mark>
+
+Horizantal Tag
+<hr>
+Used to separate a content
+
+subscript and superscript tag
+<sub>h2</sub
+<sup>an</sup>
+
