@@ -1,0 +1,5 @@
+public method
+
+1. public method is an method it access from any  other class.
+2.its a part of access modifier to increases accessibility.
+3. It follows the Encapsulation principal. 

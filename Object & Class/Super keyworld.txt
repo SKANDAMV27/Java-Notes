@@ -1,0 +1,10 @@
+Super keyworld
+
+super is keyworld is used to refer the parent class(Super Class).
+ 
+ constructor rule
+1.super() most be first statement in constructor.
+2.if we cannot add the super() then compiler add atomically.
+3.it cannot use supper in static method.
+
+ 
