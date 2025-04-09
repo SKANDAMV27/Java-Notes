@@ -1,0 +1,7 @@
+Casting
+ 
+casting is a process to converting one data type to another.
+
+types 
+1.implisite casting.
+2.explisite casting.
