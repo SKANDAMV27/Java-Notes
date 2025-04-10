@@ -1,0 +1,7 @@
+div tag
+
+ div is an block level element is used to group the element together
+
+span tag
+ 
+ span is an line continuer is used to group the element together

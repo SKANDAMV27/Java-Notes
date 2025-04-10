@@ -1,0 +1,7 @@
+Form tag
+
+ it is used to take data from the user
+
+<form>
+
+</form>
