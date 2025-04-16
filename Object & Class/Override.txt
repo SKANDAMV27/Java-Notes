@@ -1,0 +1,6 @@
+Override:
+
+1.It provide new Implementation when the method is already defined in the superclass.
+2.It helps to subclass to change behaviour of the method.
+3.Method Name class are should be same.
+4.It must be inherited from the super class.

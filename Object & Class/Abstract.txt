@@ -1,0 +1,6 @@
+Abstract: 
+
+1.Abstract is an KeyWorld.
+2.It is an incomplete Functionality.
+3.It is decleared in class method.
+

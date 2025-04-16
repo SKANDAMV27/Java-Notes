@@ -1,0 +1,15 @@
+Final:
+
+1. Final is an Keyworld.
+2. It is an Modifier that can be used with the 
+	1. Variable
+	2. Method
+	3. class
+4. Variable:
+   When a variable is declared final , it value cannot be changed once assigned.
+   It essentially become a constant
+5.  Method
+	Final Method that cannot be override from subclass
+6. Class
+	Final Class that cannot be extend.
+	It prevent the Inheritence.

@@ -1,0 +1,6 @@
+Getter and setter
+ 	
+  1.Getter And Setter are method it is used to access and update the private variable of a class
+  2.It helped with the Encaplucation principle of the object oriented language.
+  3.Getter is allows to read only
+  4. setter is used to write only
