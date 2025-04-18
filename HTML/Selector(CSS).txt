@@ -1,0 +1,37 @@
+Selector:
+
+The Selector Targets a HTML tags to apply the Style.
+
+
+1.Universal Selector(*)
+	It Selected all Element in the Page.
+
+2.Element selector()
+	It Target Specific HTML Tags.
+
+3.Group Selector
+	It apply same Style to the multiple Selector.
+
+4.ID Selector(#)
+	It Target The Element with a specific id.
+
+5.Class Selector(.)
+	It Target The Element with the Specific class. 
+
+6.Desecent Selector()
+	It Target The Element inside the Another Element.
+
+7.Child Selector(>)
+	It Target Direct Child Only.
+
+8.Adjecent Selector 
+	It is denoted as + Symbol.
+	It Selector the Element that come intermediate after the another.
+
+9.General Sibling Selector
+	It is denoted as (~) .
+	It Selector that all the Sibling That Fallow the First Element.
+
+10.Attribute Selector
+
+	It Select the Attribute Selector.

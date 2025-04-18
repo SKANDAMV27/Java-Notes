@@ -1,0 +1,12 @@
+Box Model:
+1.It consist of 4 Layer
+
+
+middle layer:
+1.Content
+
+2.Padding
+
+3.Border
+
+4.Margin

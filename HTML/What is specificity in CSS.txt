@@ -1,0 +1,13 @@
+ What is specificity in CSS?
+It determines which rule takes priority:
+
+Inline > ID > Class > Tag
+
+Difference between em, rem, %, and px?
+px: Absolute unit
+
+%: Relative to parent
+
+em: Relative to parent font-size
+
+rem: Relative to root font-size
