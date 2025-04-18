@@ -1,0 +1,50 @@
+Armstrong
+An Armstrong number is a number that is equal to the sum of its digits raised to the power of the number of digits.
+
+
+    public static boolean isArmstrong(int number) {
+A method that returns true or false based on whether the number is an Armstrong number.
+
+java
+Copy
+Edit
+        int original = number;
+        int sum = 0;
+original stores the original number (we need it later to compare).
+
+sum will accumulate the sum of each digit raised to the power of total digits.
+
+java
+Copy
+Edit
+        int digits = String.valueOf(number).length();
+Converts the number to a string to find how many digits it has.
+
+Example:
+
+153 → "153" → length is 3 → each digit will be raised to the power of 3
+
+java
+Copy
+Edit
+        while (number > 0) {
+            int digit = number % 10;
+            sum += Math.pow(digit, digits);
+            number /= 10;
+        }
+A while loop is used to extract each digit of the number:
+
+number % 10 gets the last digit.
+
+Math.pow(digit, digits) raises the digit to the power of total digits and adds it to sum.
+
+number /= 10 removes the last digit.
+
+java
+Copy
+Edit
+        return sum == original;
+    }
+After the loop, compare the sum to the original number.
+
+If they’re equal → return true, otherwise → false.
