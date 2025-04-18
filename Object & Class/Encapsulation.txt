@@ -1,0 +1,20 @@
+Encapsulation:
+
+1.Its is one of the principal in object oriented Programming Language.
+
+2.It refers to the Bundling of data(variables) and method that operate on the data into a single unit typically a class.
+
+Key Concept:
+
+4.Private Variable declared 
+
+3.public Getters and Setters: These Methods are provided to access and update private variable safely.
+
+This is a part of Encapsulation
+Getter Method:
+ It is used to retrieve(get) the value of private variable.
+
+Setter Method
+	It is used to modify(set) the value of private Variable.
+
+They are standard way to access and update private field in a class this is a part of Encapsulation.

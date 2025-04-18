@@ -1,0 +1,17 @@
+Interface:
+
+1.Interface is an Key World
+2.Interface is an non primitive data type
+3.Interface can declared with the
+	1.abstract method.
+	2.default method.
+	3.static method.
+
+1.abstract method Syntax
+  It cannot be have Body
+	void methodname();
+2.Default Method Syntax
+  It can Have Body
+	default void methodName(){
+
+} 

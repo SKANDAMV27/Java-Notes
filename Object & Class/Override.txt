@@ -1,6 +1,8 @@
 Override:
 
-1.It provide new Implementation when the method is already defined in the superclass.
-2.It helps to subclass to change behaviour of the method.
-3.Method Name class are should be same.
-4.It must be inherited from the super class.
+1.Method Overriding means redefining a method in a subclass that already exists in the parent class.
+2.The method must be inherited from the parent class.
+3.It helps to subclass to change behaviour of the method.
+4.Method Name class are should be same.
+5.It must be inherited from the super class.
+6.The method cannot be static , final or private in the parent class.

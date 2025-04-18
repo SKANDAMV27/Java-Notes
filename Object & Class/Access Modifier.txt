@@ -1,0 +1,20 @@
+Access Modifier
+
+It has Three types to Declare the method
+
+	1.public
+	2.Protected
+	3.Private
+
+1.public access Modifier it can access to all classes everywhere.
+
+2.If the class has no modifier then its visible only within its own package
+
+3.private modifier it can access only its own class.
+
+4.Protecyed Modifier it can accessed in the own package and in additional by subclass of its another package.
+
+Access level modifiers determine whether other classes can use a particular field or invoke a particular method. There are two levels of access control:
+
+At the top level—public, or package-private (no explicit modifier).
+At the member level—public, private, protected, or package-private (no explicit modifier).

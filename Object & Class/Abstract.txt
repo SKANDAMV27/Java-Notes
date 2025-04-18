@@ -2,5 +2,8 @@ Abstract:
 
 1.Abstract is an KeyWorld.
 2.It is an incomplete Functionality.
-3.It is decleared in class method.
-
+3.It is decleared in class  and method.
+4.It can Contain
+	1.Abstract method(It consist of without a body)
+	2.Non Abstract Method(It Consist of body)
+	3.Variable and Constructor. 
