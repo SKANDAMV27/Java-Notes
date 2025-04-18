@@ -7,3 +7,8 @@ Abstract:
 	1.Abstract method(It consist of without a body)
 	2.Non Abstract Method(It Consist of body)
 	3.Variable and Constructor. 
+
+5. In java abstract key world is used to achive the abstraction.
+ it used with the 
+	abstract method 
+	abstract class
