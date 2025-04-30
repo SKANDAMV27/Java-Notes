@@ -1,0 +1,3 @@
+Generic Method :
+
+	Generic Method is an method that Works with any type of the data.

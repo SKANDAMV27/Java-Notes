@@ -5,3 +5,10 @@ casting is a process to converting one data type to another.
 types 
 1.implisite casting.
 2.explisite casting.
+
+
+Casting is used to convert one data type into another. It's helpful when:
+
+You want to assign a value of one type to a variable of another type.
+
+You’re working with inheritance and need to access specific subclass methods using a superclass reference.

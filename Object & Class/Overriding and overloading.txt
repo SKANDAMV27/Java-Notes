@@ -1,0 +1,51 @@
+Overriding and overloading
+
+overriding: 1.	can Happening at Runtime
+	    2.	It allow the subclass can implements the super class Method.
+
+overloading:  1.	It can Happing at Compialtime.
+	      2.	It allows the Method At the same name but bifferent signature.
+
+
+// Method Overloading (Same class, same method name, different parameters)
+class Calculator {
+    int add(int a, int b) {
+        return a + b;
+    }
+
+    double add(double a, double b) {
+        return a + b;
+    }
+
+    int add(int a, int b, int c) {
+        return a + b + c;
+    }
+}
+
+// Method Overriding (Subclass provides a specific implementation of a method from the superclass)
+class Animal {
+    void sound() {
+        System.out.println("Animal makes a sound");
+    }
+}
+
+class Dog extends Animal {
+    @Override
+    void sound() {
+        System.out.println("Dog barks");
+    }
+}
+
+public class MethodDemo {
+    public static void main(String[] args) {
+        // Overloading
+        Calculator calc = new Calculator();
+        System.out.println("Add 2 ints: " + calc.add(2, 3));
+        System.out.println("Add 2 doubles: " + calc.add(2.5, 3.5));
+        System.out.println("Add 3 ints: " + calc.add(1, 2, 3));
+
+        // Overriding
+        Animal myDog = new Dog();
+        myDog.sound(); // Calls overridden method in Dog
+    }
+}

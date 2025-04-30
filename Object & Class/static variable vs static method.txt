@@ -1,0 +1,72 @@
+static variable vs static method
+
+static variable:
+1.	static variable belongs to a class not an object.
+2.	A variable declared with static key world.
+3.	Memory allocation happens only once at the time of class loading.
+
+Syntax:
+
+class name{
+static datatype varible;
+}
+
+code for static variable:
+class Employee {
+    int id;
+    String name;
+    static String company = "TechSoft"; // static variable
+
+    Employee(int id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
+    void display() {
+        System.out.println(id + " " + name + " " + company);
+    }
+}
+
+class TestStaticVariable {
+    public static void main(String[] args) {
+        Employee e1 = new Employee(101, "Alice");
+        Employee e2 = new Employee(102, "Bob");
+
+        e1.display();
+        e2.display();
+
+
+    }
+}
+
+
+Static Method:
+1.	A method declared with static key word.
+2.	It belongs to the class rather then the object.
+3.	It can directly access only static data(variable or method).
+4.	cannot use this or super key words inside static methods.
+
+
+syntax:
+class name{
+
+static returntype methodName(){
+ 
+}
+
+class Calculator {
+    static int add(int a, int b) {
+        return a + b;
+    }
+
+    static int multiply(int a, int b) {
+        return a * b;
+    }
+}
+
+class TestStaticMethod {
+    public static void main(String[] args) {
+        System.out.println(Calculator.add(5, 10));
+        System.out.println(Calculator.multiply(3, 7));
+    }
+}

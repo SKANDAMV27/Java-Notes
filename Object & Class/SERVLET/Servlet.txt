@@ -1,0 +1,13 @@
+Servlet:
+
+1.	Servlet is an java class that run with in server.
+2.	It uses a platform called java EE.
+3.	It handles the HTTP request and response.
+4.	It is used to create the web page
+
+Servlet Life Cycle are
+	There are three main method of servlet 
+	1.	init() it called ones when the servlet first loaded.
+	2.	services() it called to handel each request.
+	3.	destroy() it called onces when the servlet is being taken out of services.
+

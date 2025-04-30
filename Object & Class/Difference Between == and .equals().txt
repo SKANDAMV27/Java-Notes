@@ -1,0 +1,29 @@
+Difference Between == and .equals()
+
+1.	== is used to check the memory location.
+	example: Both the variables pointed to the same object.
+
+2.	.equals() is used to check the object value.
+	example: Both the String have the same Characature.
+
+
+
+public class name{
+
+public static void main(String[] ags){
+
+String str1="Skanda";
+String str2="M V";
+
+String str3 = new String("Hello");
+
+System.out.println("str1==str2: "+(str1==str2));
+System.out.println("str1==str3: "+(str1==str3));
+
+System.out.println("str1.equal(str2): "+str1.equals(str2));
+System.out.println("str1.equal(str2):"+str1.equals(str3)); 
+
+
+
+
+

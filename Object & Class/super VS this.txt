@@ -1,0 +1,40 @@
+super VS this
+
+super:
+1.	Super is an key 
+2.	It is used to call the constructor and method from the superclass.
+
+this:
+1.	It is an key
+2.	It is used to call the constructor and method from the same class.
+
+
+
+
+
+class Animal {
+    Animal() {
+        System.out.println("Animal Constructor");
+    }
+}
+
+class Dog extends Animal {
+    Dog() {
+        // Call to superclass constructor (super())
+        super();
+        System.out.println("Dog Constructor");
+    }
+
+    Dog(String breed) {
+        // Call to another constructor of the same class (this())
+        this();
+        System.out.println("Dog Breed: " + breed);
+    }
+}
+
+public class SuperThisExample {
+    public static void main(String[] args) {
+        Dog dog1 = new Dog(); // Calls constructor of Dog and Animal
+        Dog dog2 = new Dog("Bulldog"); // Calls overloaded constructor of Dog
+    }
+}
