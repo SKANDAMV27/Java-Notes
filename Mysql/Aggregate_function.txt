@@ -1,0 +1,111 @@
+
+MSQL
+
+AILIAS Name : It is an Temporary name(Keyworld is an As)
+
+Aggregate Function
+
+1) count: Number of rows
+
+syntax:
+
+SELECT count(*) from table_name;
+
+AILIAS Name Sytax : Select count(*) As no_of_row from table_name;
+
+2) SUM: It add all the values present in the column
+
+
+ex:
+ select sum(salary) as total_sal from table_name;
+
+3)Max:
+
+Select MAX(age) as max_age from table_name;
+where ______=''3B
+
+example :
+we have to print name of max salary receiver
+
+select name,Max(salary) as max_salary from table_name;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Exection order:(IMPORTANT)
+
+SELECT DISTINCT FROM WHERE GROUP HAVING ORDERBY;
+Select: It is used to choose the column you want to see in the result.
+Distinct: It is used to remove the Duplicate rows from the result.
+From: This tells SQL which table to get the data form.
+Where: This is used to Filter Rows -only the rows that match the conduction will be selected.
+
+
+
+
+After the inserting of data to the table we modify int to varchar is possible but varchar to int is not possible.
+
+
+
+Like : it is used to pattern matching.
+Syntax :
+
+name starting
+select * from table_name where column_name like 'xa%';
+
+name Ending
+select * from table_name where column_name like '%E';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+Rules of EF Cord
+
+
+It Consist of 4 Rules
+
+* Data Entered into cell must be single value data.
+* According to the EF Cord WE can store the data in multiple table , if it necessary we can Establish the Relationship between table.
+* RDBMS can store the data in the form of table including meta data
+* Data Entered into the cell it must be validated.
+	we can valiadation by assigning
+
+	1. data Type
+	2.Constraints

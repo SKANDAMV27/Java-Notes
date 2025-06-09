@@ -4,6 +4,8 @@ Constructor:
 2.It has the same name as the class.
 3.Doesnot have return type.
 4.It Automatically invoked when a new object is created.
+5.If we does not produce a constructor then java produce a default constructor.
+6.Class Can Have Multiple Constructor.
 
 Syntax:
  
@@ -21,3 +23,10 @@ Person person = new person(30);
 sopln(person.value);
 }
 }
+
+Type of Constructor
+1.Default Constructor
+2.Parameter Constructor
+3.copy constructor.
+4.non-Argunment Constructor.
+5.private Constructor.

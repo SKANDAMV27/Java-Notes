@@ -1,0 +1,13 @@
+JSP:
+
+* java Servlet page
+* It is an Technology to creating dynamic web pages by embedding java code into HTML.
+* It is an autogenterated Servlet.
+
+JSP Working
+
+* Client Sends Requiset (Like clicking Link)
+* JSP File Process in the Server.
+* JSP Converts into Servlet ( a java class)
+* Servlet that Gerents as HTML Respones.
+* HTML is back to browser.

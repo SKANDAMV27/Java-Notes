@@ -1,0 +1,12 @@
+DTO
+
+*It is an Data Transform Object.
+*DTO is an Object that carries the data between different type of application between client and server.
+
+*Five Rules
+
+. Non Final Class
+.It most have one no-args Constructor.
+.It most have private property.
+.It implements the Serializable.
+.It process getter and setter methods

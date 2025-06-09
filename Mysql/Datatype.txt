@@ -1,0 +1,53 @@
+Datatype:
+
+* The Type of the data What we can stored in the particular column on a table is called Datatype.
+
+Type of Datatype:
+1.Char
+2.varchar\varchar2
+3.Number
+4.Date.
+5.Large Object
+	1.CLOB(Character Large Object)
+	2.BLOB(Binary Large Object).
+
+Char
+* It Stands for Characture.
+* Default value of Char is 1.
+* In char we can store upto 2000 characture.
+* IF we assign the Char datatype then we can store alphabet, numbers, and special Characture.
+* It consume more memory.
+* It can be execute Fast Due to the fixed Length.
+* Syntax:
+	Char(Size)
+		|--(Number of Characture)
+
+Varchar
+* It stands for Variable Characture.
+* Default value of varchar is 0.
+* We can assign the varchar datatype to the column to store the alphabet, numbers , and Special Characture.
+* In varchar we can store upto 2000 characture and varchar2 we can store upto 4000 characture.
+* Syntax:
+    varchar(size)
+	     |-->(Number of Characture)	
+
+* In varchar if it try to store the characture more than defined size it throws Error message.
+* It consumption less memory.
+
+Number:
+* we assign the num datatype to a column we can store the number (0-9).
+
+Data:
+* We assign date datatype to a column we can store data in the formate
+* Date Formate  DD-MON-YY
+
+Large Object
+There are Two types
+* CLOB(Characture Large Object)
+	* we can store the huge amount of Charactures upto 4 Gb of size.
+* BLOB(Binary Large Object)
+	* we can store the Binary values of Images, Video , audios etc upto 4Gb of size.
+
+
+
+		

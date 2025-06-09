@@ -12,3 +12,28 @@ Abstract:
  it used with the 
 	abstract method 
 	abstract class
+6. Abstract class in java that class that doesn't have own instated and inherited by other class.
+
+
+example
+
+abstract class vehicle{
+abstract void sound();
+void drive(){
+sout("Vehicles Drive.");
+}
+}
+class car extends vehicle{
+void start(){
+sout("Car start: ");
+}
+}
+
+
+public class Main(){
+public static void main(String[] args){
+Vehicle vehicle = new Car();
+vehicle.start();
+vehicle.drive();
+}
+}

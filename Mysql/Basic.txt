@@ -1,0 +1,56 @@
+Data:
+
+* Data is a piece of value or collection of values which is used to describe real world object.
+
+			1.mobile(Real World Object)
+			2.brand,color,price(Attribute)
+			3.mi,red,120000(collection of values)
+
+Data Base:
+
+* Collection of data 
+* where data can be stored in the systematic or organized way.
+* It is used to maintain and manage the data.
+* In Data Base we can perform CRUD operation (C---> Create, R--->Retrive, U--->Updated, D---->Delete)
+
+
+DBMS:
+
+* Data Base Management System is an Software
+* Which uses the Quirey language using that the DB user Writes the Quirey to interact with the data base.
+* In DBMS data will be stored in the form of file in different extentation.
+
+RDBMS:
+
+* RDMS is a software 
+* Which Uses the SQL as Quirey Language using the DB user Writes the Quires to intrect with the data base.
+* In RDMS data will be stored in the form of table.
+
+
+SQL 
+
+* Structured Qurey Language.
+* Which used to interct or communicate & manipulate the data base.
+* It is an Simple English Quiry Language.
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+			       			
+			
+
+Quirey:
+
+* It is an set of instrucation.
+
+

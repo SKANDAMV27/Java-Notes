@@ -1,0 +1,3 @@
+Data Type
+
+	Data type is an convertor with convert the real world data into binary (0's or 1's)

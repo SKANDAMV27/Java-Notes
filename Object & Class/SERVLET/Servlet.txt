@@ -11,3 +11,6 @@ Servlet Life Cycle are
 	2.	services() it called to handel each request.
 	3.	destroy() it called onces when the servlet is being taken out of services.
 
+
+
+
