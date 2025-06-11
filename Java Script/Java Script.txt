@@ -1,3 +1,38 @@
+JavaScript:
+
+* IT is an interpreted ,High Level Programming Language.
+* It Primiraly used to create the interactive and dynamic content on website.
+* It is a client Side language (Mostly runs in the Browser).
+* It can be used for validations, animations, interactive forms and Dynamic contents.
+* It Supports object-oriented .
+* It can be Exectuted With in the browser and which as Capability to acess HTML And CSS to change Dynamically with in the CLient.
+
+
 Data Type
 
-	Data type is an convertor with convert the real world data into binary (0's or 1's)
+Java Script That catagerious into two types:
+
+1). Primitive Data Type.
+2). Non Primitive Data Type.
+
+
+primitive Data Type:
+
+* This is Basic and It cannot be change
+* Types are: 
+	1.Number
+	2.String
+	3.Null:Intentional absence of value
+	4.Bigint: For Large Integer Value
+	5.symbol: Unique and immunitable Value Symbol("Id")
+	6.Boolean: Logical Value
+	7.Undefined : Variable Decrealed But No Value.
+
+Non Primitive Data Type:
+* This is more Complext and Can be Hold more values
+Types are: 
+	1).Object
+	2).Function : Reusable block of code
+	3).Array
+	4).Date
+	5).Regular Expression.
