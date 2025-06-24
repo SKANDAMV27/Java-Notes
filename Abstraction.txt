@@ -1,0 +1,69 @@
+Abstraction:
+
+* It is an one of the Principal of object oriented Programming Language.
+* In java abstraction is the process of hiding the internal implementation details only the essential features of an object.
+* To Achieve The Abstraction We use abstract Class with abstract key world and Interface using interface keyword.
+
+🔷 1. Abstract Class
+An abstract class is a class that cannot be instantiated.
+
+It can have abstract methods (without body) and concrete methods (with body).
+
+java
+Copy
+Edit
+abstract class Animal {
+    abstract void sound(); // abstract method
+
+    void sleep() {
+        System.out.println("Sleeping...");
+    }
+}
+
+class Dog extends Animal {
+    void sound() {
+        System.out.println("Dog barks");
+    }
+}
+Usage:
+
+java
+Copy
+Edit
+public class Main {
+    public static void main(String[] args) {
+        Dog d = new Dog();
+        d.sound(); // Output: Dog barks
+        d.sleep(); // Output: Sleeping...
+    }
+}
+🔷 2. Interface
+Interface is 100% abstract (before Java 8).
+
+It can contain abstract methods, default methods, and static methods (from Java 8).
+
+A class implements an interface using the implements keyword.
+
+java
+Copy
+Edit
+interface Vehicle {
+    void start();
+}
+
+class Car implements Vehicle {
+    public void start() {
+        System.out.println("Car started");
+    }
+}
+Usage:
+
+java
+Copy
+Edit
+public class Main {
+    public static void main(String[] args) {
+        Vehicle v = new Car();
+        v.start(); // Output: Car started
+    }
+}

@@ -1,0 +1,5 @@
+polymorphism:
+
+* It is an one of the principal of object oriented programming language.
+* It have same name but different form.
+* 
