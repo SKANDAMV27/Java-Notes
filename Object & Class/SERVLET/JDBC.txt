@@ -1,0 +1,35 @@
+JDBC 
+
+Java Data Base Connection
+
+JDBC is An API it is used to make Connection and Interaction Between Relational Database such As(MySQL, oracle etc) Using java Program.
+
+
+key Components of JDBC
+
+1. DriverManager
+	* It is an Class that Manages the JDBC Drivers and facillates the connections to database.
+	* It Acts a Bridge between application and appriate.
+
+2. Connection
+	* It is an Interface That make Connection with the Database
+
+3. Statement
+	* It is an Interface It used to Execute the SQL Quries(Insert, delete, alter , update).
+
+4. preparedStatement
+	* It is a subclass of statement.
+
+5. ResultSet
+	* It hold the retrive data from the database  after execute the SQL Quries
+
+It consist of four File To achive this process
+
+1. Load And Register
+2. Connection
+3. Create The Statement
+4. Exection
+
+
+
+
