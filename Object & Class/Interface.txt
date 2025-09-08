@@ -1,7 +1,7 @@
 Interface:
 
 1.Interface is an Key World
-2.Interface is an non primitive data type
+2.Interface is an non primitive data type it used to decleared an interface.
 3.Interface can declared with the
 	1.abstract method.
 	2.default method.
