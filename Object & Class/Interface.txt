@@ -9,6 +9,7 @@ Interface:
 
 1.abstract method Syntax
   It cannot be have Body
+	* It must be implements by class.
 	void methodname();
 2.Default Method Syntax
   It can Have Body
