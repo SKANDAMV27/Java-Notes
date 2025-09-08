@@ -12,6 +12,11 @@ Interface:
 	void methodname();
 2.Default Method Syntax
   It can Have Body
+	It can be override.
 	default void methodName(){
-
 } 
+
+3. Static Method:
+* It has a body.
+* It cannot be override.
+
