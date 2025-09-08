@@ -6,8 +6,9 @@ Types of Methods in Java
 
 
 Instance Methods
-1.Need to create an object to use them
-2.Belong to an instance of a class
+1.Instance Method Is an non-static method.
+2.It belongs to a object.
+3.Instance Method can be invokes when the new object is created.
 
 Static Methods
 1.Belong to the class not object.
